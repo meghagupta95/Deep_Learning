@@ -1,0 +1,876 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hi Bot",
+				"Hola",
+				"Hi, how are you",
+				"How are you",
+				"Is anyone there?",
+				"Hello",
+				"Hey",
+				"What's up",
+				"Hi there",
+				"Hey there",
+				"Good morning",
+				"Good afternoon",
+				"Good evening",
+				"Howdy",
+				"Hello there"
+			],
+			"responses": [
+				"What can i help you with today?",
+				"How can I help you today?"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later",
+				"Goodbye",
+				"Farewell",
+				"Take care",
+				"Catch you later",
+				"Goodbye for now",
+				"Bye for now",
+				"Talk to you later",
+				"See you soon",
+				"Take it easy",
+				"So long",
+				"Adios",
+				"Good night",
+				"Later",
+				"Have a good one",
+				"Cheers",
+				"Good luck",
+				"Safe travels",
+				"Until next time"
+			],
+			"responses": [
+				"See you later, thanks for visiting",
+				"Have a nice day",
+				"Bye! Come back again soon."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Much appreciated",
+				"Thanks a lot",
+				"Thanks so much",
+				"Thank you very much",
+				"I appreciate it",
+				"You're a lifesaver",
+				"I owe you one",
+				"You're the best",
+				"Thanks for the help",
+				"You're awesome",
+				"I appreciate your help",
+				"You're amazing",
+				"Grateful for your help",
+				"Thanks for your assistance",
+				"You're a big help",
+				"That's so kind of you",
+				"I can't thank you enough"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "catering",
+			"patterns": [
+				"Do you offer catering services?",
+				"Can you cater for events?",
+				"Are you available for catering?",
+				"Can I hire you for catering?",
+				"What types of events do you cater for?",
+				"What is your catering menu?",
+				"Can you create a custom catering menu?",
+				"What is your capacity for catering events?",
+				"Do you have experience catering for large events?",
+				"What is the cost of your catering services?",
+				"Do you offer on-site catering?",
+				"Can you accommodate dietary restrictions or special requests?",
+				"How far in advance should I book your catering services?",
+				"What is included in your catering services?",
+				"Do you provide serving staff for catering events?",
+				"Can you handle last-minute catering requests?",
+				"Do you provide all necessary equipment for catering events?",
+				"Can you assist with event planning and coordination?",
+				"Do you offer delivery for catering orders?"
+			],
+			"responses": [
+				"We will be more than happy to serve fresh food to make your event more memorable. Feel free to call us at (669)-224-0833",
+				"At Suggi OOta, we offer top-notch catering services to help make your event a success. Give us a call at (669)-224-0833 to learn more and to place your order.",
+				"We'd love to help make your event unforgettable with our fresh and delicious food. Feel free to give us a call at (669)-224-0833 to discuss your catering needs."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "hours",
+			"patterns": [
+				"What hours are you open?",
+				"What are your hours?",
+				"When are you open?",
+				"Tell me your hours",
+				"What time do you open?",
+				"What time do you close?",
+				"When do you close?",
+				"What's your schedule?",
+				"what are today's timings?",
+				"Are you open now?",
+				"What are your business hours?",
+				"What are your working hours?",
+				"When can I visit?",
+				"What are your opening hours?",
+				"What are your closing hours?",
+				"What days are you open?",
+				"When do you open?",
+				"When do you close?",
+				"Are you open on weekends?",
+				"Are you open on holidays?",
+				"What time are you open?"
+			],
+			"responses": [
+				"We're open every day from 11am-9pm, except on Mondays when we're closed. On Fridays, we're open from 4pm-9pm.",
+				"Our hours are 11am-9pm every day, except for Mondays when we're closed. Fridays, we're open from 4pm-9pm."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "location",
+			"patterns": [
+				"What is your location?",
+				"Where are you located?",
+				"What is your address?",
+				"Where is your restaurant situated?",
+				"How can I find you?",
+				"What's your location?",
+				"Where can I find you?",
+				"Where are you?",
+				"What's the address?",
+				"Where is your place?",
+				"Where is your business located?",
+				"What street are you on?",
+				"Which area is your restaurant in?",
+				"What's your physical location?",
+				"Where should I go?",
+				"Where is your store?",
+				"Where is your shop?",
+				"What's the location",
+				"Can you provide the address",
+				"Where do I find you",
+				"What is your location",
+				"Where are you located",
+				"What is your address",
+				"Where is your restaurant situated",
+				"How can I find you",
+				"What's your location",
+				"Where can I find you",
+				"Where are you",
+				"What's the address",
+				"Where is your place",
+				"Where is your business located",
+				"What street are you on",
+				"Which area is your restaurant in",
+				"What's your physical location",
+				"Where should I go",
+				"Where is your store",
+				"Where is your shop",
+				"What's the location",
+				"Can you provide the address",
+				"Where do I find you"
+			],
+			"responses": [
+				"We are one of the Cloud Kitchens (K-31) located at 949 Ruff Dr, San Jose, CA 95110. Please follow the link to visit us: https://www.google.com/maps?q=949+Ruff+Dr,+San+Jose,+CA+95110"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "contact",
+			"patterns": [
+				"How can I contact you?",
+				"What's your phone number?",
+				"Can I call you?",
+				"May I have your contact information?",
+				"What are your contact details?",
+				"Can you provide your phone number?",
+				"How do I reach you?",
+				"How do I get in touch with you?",
+				"What's the best way to contact you?",
+				"Do you have an email address?",
+				"Is there a way to email you?",
+				"Can I reach out to you via email?",
+				"Can you give me your contact number?",
+				"What is the best way to get in touch with your restaurant?",
+				"What is your phone number?",
+				"What are your phone lines?",
+				"Can I have your email address?",
+				"Can you provide your contact details?",
+				"How can I get in touch with your business?",
+				"What's your email address?",
+				"How do I contact your restaurant?",
+				"How can I reach your restaurant?",
+				"How do I make a reservation?",
+				"How do I book a table?",
+				"What is the best way to make a reservation?",
+				"How can I contact you",
+				"What's your phone number",
+				"Can I call you",
+				"May I have your contact information",
+				"What are your contact details",
+				"Can you provide your phone number",
+				"How do I reach you",
+				"How do I get in touch with you",
+				"What's the best way to contact you",
+				"Do you have an email address",
+				"Is there a way to email you",
+				"Can I reach out to you via email",
+				"Can you give me your contact number",
+				"What is the best way to get in touch with your restaurant",
+				"What is your phone number",
+				"What are your phone lines",
+				"Can I have your email address",
+				"Can you provide your contact details",
+				"How can I get in touch with your business",
+				"What's your email address",
+				"How do I contact your restaurant",
+				"How can I reach your restaurant",
+				"How do I make a reservation",
+				"How do I book a table",
+				"What is the best way to make a reservation"
+			],
+			"responses": [
+				"Feel free to call us at (669)-224-0833 from 11 am-9pm on everyday except Mondays",
+				"Please give us a call at (669)-224-0833 from 11 am-9pm on everyday except Mondays",
+				"We would love to hear from you! You can contact us at (669)-224-0833 from 11 am-9pm on everyday except Mondays"
+			],
+			"context_set": ""
+		},
+
+		{
+			"tag": "payments",
+			"patterns": [
+				"Do you take credit cards?",
+				"Do you accept Mastercard?",
+				"Are you cash only?",
+				"What payment methods do you accept?",
+				"Can I pay with a credit card?",
+				"Do you accept debit cards?",
+				"Do you take Visa?",
+				"Can I pay with cash?",
+				"Do you accept American Express?",
+				"What cards do you accept?",
+				"Do you take checks?",
+				"Do you accept Apple Pay?",
+				"Can I use Google Pay?",
+				"Do you accept PayPal?",
+				"What are the payment options?",
+				"How can I pay?",
+				"Is it card only?",
+				"Do you have a cashless policy?",
+				"Do you accept contactless payments?",
+				"Can I use my credit card?"
+			],
+			"responses": [
+				"We accept VISA, Mastercard and AMEX",
+				"We accept most major credit cards"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "todaysmenu",
+			"patterns": [
+				"What is your menu for today?",
+				"What are you serving today?",
+				"What is today's special?",
+				"What's on the menu?",
+				"What are today's specials?",
+				"Any new dishes today?",
+				"What should I try today?",
+				"What's the special?",
+				"What do you recommend today?",
+				"What are the daily specials?",
+				"What's good today?",
+				"What's the best thing on the menu today?",
+				"What's new on the menu?",
+				"What's your chef's recommendation?",
+				"What's the most popular dish today?",
+				"What's your top dish for today?",
+				"What are the chef's specials?",
+				"What's the dish of the day?",
+				"Any special offers today?",
+				"What are the featured items?"
+			],
+			"responses": [
+				"Our menu is a daily changing menu as we prepare everything from scratch on the same day, Please visit https://www.suggioota.com/order-online for more information.",
+				"Our daily changing menu features only fresh, made-from-scratch meals, using the best seasonal ingredients. Please visit https://www.suggioota.com/order-online to explore our menu."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "deliveryoption",
+			"patterns": [
+				"Do you provide home delivery?",
+				"Do you deliver the food?",
+				"What are the home delivery options?",
+				"Do you offer delivery?",
+				"Is there a delivery option?",
+				"Can I get my food delivered?",
+				"What delivery services do you use?",
+				"How does delivery work?",
+				"Do you have a delivery service?",
+				"Can you deliver to my house?",
+				"Do you partner with any delivery apps?",
+				"Which delivery apps do you work with?",
+				"Can I order delivery?",
+				"What's your delivery range?",
+				"How much is delivery?",
+				"Is there a delivery fee?",
+				"How long does delivery take?",
+				"Do you do contactless delivery?",
+				"Can I track my delivery?"
+			],
+			"responses": [
+				"Yes, we provide home delivery through Doordash, Uber Eats, Grubhub, and LemonHat",
+				"We have home delivery options through Doordash, Uber Eats, Grubhub, and LemonHat"
+			],
+			"context_set": "food"
+		},
+		{
+			"tag": "menu",
+			"patterns": [
+				"What is your Menu?",
+				"What are the main course options?",
+				"Can you tell me the most delicious dish from the menu?",
+				"What is the today's special?",
+				"What do you serve?",
+				"Can I see the menu?",
+				"What's on the menu?",
+				"What are your best dishes?",
+				"What do you recommend?",
+				"Tell me about your menu",
+				"What kind of food do you have?",
+				"What's your most popular dish?",
+				"Do you have any signature dishes?",
+				"What are your top menu items?",
+				"What kind of cuisine do you serve?",
+				"What are your appetizers?",
+				"What are your desserts?",
+				"What are your specials?",
+				"What are your vegan options?",
+				"Do you have gluten-free options?"
+			],
+			"responses": [
+				"You can visit https://www.suggioota.com/order-online for menu options",
+				"You can check out the food menu at https://www.suggioota.com/order-online"
+			],
+			"context_filter": "food"
+		},
+		{
+			"tag": "order",
+			"patterns": [
+				"I'd like to order",
+				"Can you take my order?",
+				"What do you have on the menu?",
+				"What's good to eat?",
+				"What's your recommendation?",
+				"Can you suggest something?",
+				"What do you suggest?",
+				"I want to place an order",
+				"Can I order some food?",
+				"How can I order?",
+				"order food",
+				"i want to order",
+				"What's the best thing to order?",
+				"What should I get?",
+				"What do you think I should try?",
+				"I need help deciding what to order",
+				"I'm not sure what to get",
+				"I can't decide what to order",
+				"What are your customer favorites?",
+				"What would you recommend for a first-timer?",
+				"What's a must-try dish?",
+				"What's a good option for lunch?"
+			],
+			"responses": [
+				"Sure, You can place your order online at https://www.suggioota.com/order-online",
+				"Of course, You can place your order online at https://www.suggioota.com/order-online",
+				"We have many great options to choose from, You can place your order online at https://www.suggioota.com/order-online"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "Greetings",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+			"responses": ["Hello, thanks for visiting!", "Good to see you again!", "Hi there, how can I help?"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Hours",
+			"patterns": ["Can I order dinner for today?", "Are you guys open today?", "What are your opening hours?", "What time do you open and close?"],
+			"responses": ["We're open Tuesday-Friday 11:30AM - 2:00PM, 5:00PM - 8:00PM  and Weekends is 11:00AM - 2:00PM.", "Our working hours for weekday Tuesday-Friday is 11:30AM - 2:00PM, 5:00PM - 8:00PM  and Weekends is 11:00AM - 2:00PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Waiting_time",
+			"patterns": ["What’s the waiting time during the peak hours?", "How long does it take to get the order?"],
+			"responses": ["As you place the order before there is no wait time. But if you place the order the same day the wait time would be an hour or two depending on the number of orders received prior.", "Usually there is no wait time as the order is placed before."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Dining_option",
+			"patterns": ["Do you have a dine in option or is it take out only?", "Do you do home delivery?"],
+			"responses": ["We provide takeouts or home delivery only.", "Yes we provide home delivery or takeaway options."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Ingredients",
+			"patterns": ["Do you use garlic in your dishes?"],
+			"responses": ["Yes we do add garlic but you can customize accordingly.", "Yea we do use. But if it’s caterings and special request we don’t use."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Item_specific_order",
+			"patterns": ["Can I order Jolada Rotti?"],
+			"responses": ["Yes we do add Thanks for reaching out. At this point of time we do not sell only holige or Jolada Roti."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Orders",
+			"patterns": ["How can I place an order on Suggi bites for today?", "Can I place an order for chaats?", "Can I order for today?", "We will like to place an order for 2 festive thali?", "Where can I order Sankranti Menu?", "How can I place a pickup order for tomorrow?"],
+			"responses": ["Please call us on +1(669)2240833 to place an order or Order it on UberEats/DoorDash.", "The Menu will be available in the morning of the same day on UberEats/DoorDash or directly call +1(669)2240833."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Rates",
+			"patterns": ["What is the price of postnatal laddu and how many pieces will a box contain?", "What is the price of Chapati?", "When are Suggi bites available?", "I am looking to host a party for 25 people. Can you tell what are the meal combos available with the prices?"],
+			"responses": ["Please check on the website or contact on +1(669)2240833 for more details."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Availability_of_items",
+			"patterns": ["When is masala puri sold?", "I want to order masala puri?"],
+			"responses": ["We serve chaats from Tuesday to Sunday from 5pm-8:30pm.", "Chaats are served only in the evening from Tuesday to Sunday from 5pm-8:30pm."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Franchise",
+			"patterns": ["Are you in Dallas?"],
+			"responses": ["Unfortunately we don't have any franchise."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Offers",
+			"patterns": ["Do you have any discounts?", "Are there any ongoing offers or discount?", "Are there any current discounts or promotions?", "Do you offer any student or senior discounts?", "What is the discount for large groups?"],
+			"responses": ["Currently we don’t have any offers but surely have some discounts on some festival time", "Yes, we have some ongoing discounts and promotions. Please check our website or call us for more information.", "We offer a 10% discount for students and seniors with valid IDs.", "For groups of 10 or more, we offer a 15% discount on the total bill."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Customer_support",
+			"patterns": ["Unable to call the restaurant"],
+			"responses": ["Re-try calling again. The number is +1(669)2240833"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Customer_Feedback",
+			"patterns": ["What items are available and unavailable are difficult to understand?"],
+			"responses": ["Please select a pickup date and you will get the options for that particular day. "],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Online_order",
+			"patterns": ["Which is the ordering app?", "From where can I place an order?"],
+			"responses": ["Our ordering app is dinebywix. Download it from the app store."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Order_Issues",
+			"patterns": ["I didn’t receive the dessert with my order?", "I just got 4 rotis but I ordered 6?"],
+			"responses": ["We are sorry for the inconvenience caused. You will get the refund for the same.", "Thanks for letting us know. We will refund you the amount."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Time_brunch",
+			"patterns": ["What time is the brunch menu available?", "When is the brunch available?"],
+			"responses": ["For 11:30AM on Saturday and 12:00PM on Sunday."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Menu_issue",
+			"patterns": ["What is Saturday’s Menu?", "I don't see any menu on the website?", "Why the menu has not been displayed?"],
+			"responses": ["Please check on the website or contact on +1(669)2240833 or more details "],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Vegetarian",
+			"patterns": ["Is this hotel 100% vegetarian ?", "Do you serve non-veg "],
+			"responses": ["We are 100% vegetarian serving delicious food."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Vegetarian_options",
+			"patterns": ["What are the different Vegetarian or Vegan options available ?", "Suggest me some good Veg options?"],
+			"responses": ["We have a variety of vegetarian options like Paneer Tikka, Paratha’s, different veggie platters and much more.", "We serve a wide range of vegetarian food like Paneer Butter Masala with Kulcha, Noodles, chaats, starters, soups, and much more."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Breakfast",
+			"patterns": ["Do you have any breakfast combos?", "Do you have breakfast options?", "Is breakfast served all day?"],
+			"responses": ["We provide breakfast combos only on weekends.", "Breakfast is served on weekends."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Order_Outstate",
+			"patterns": ["How to order for patrons out of state?"],
+			"responses": ["Plan a vacation to Bay Area."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Minimum_order_requirement",
+			"patterns": ["Do you need any minimum count for catering?", "When will the order get ready at earliest?"],
+			"responses": ["If you customize the order we will need the minimum count but if you're ordering from the regular menu no minimum count is required. For more details please contact us on +1(669)2240833", "Please contact us on +1(669)2240833"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Menu_Display",
+			"patterns": ["I don’t see Saturday’s Menu on UberEats/DoorDash?", "When is the menu available for ordering?"],
+			"responses": ["The menu will be displayed in the morning on the same day."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Delivery",
+			"patterns": ["How can I get the food delivered in Newark, CA?", "Do you offer delivery?", "Can I get food delivered to my home?"],
+			"responses": ["You can place order from lemonhat app if Doordash/UberEats don’t cover your area.", "Yes, we offer delivery. You can place an order by calling us or ordering online through our website."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Speciality",
+			"patterns": ["What’s your signature dish?", "What is your speciality?", "What’s special dish of your restaurant?"],
+			"responses": ["Our traditional thalis, chaats, Suggi bites are the signature and popular dishes.", "You must try our delicious meal combos, chaats, Suggi bites."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Customer_Service",
+			"patterns": ["How can I get the food delivered in Newark, CA?"],
+			"responses": ["You can place order from lemonhat app if Doordash/UberEats don’t cover your area."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Reservations",
+			"patterns": ["Do I need to reserve in advance?", "Is there any reservation required for the party?", "How do I reserve a table?", "Do you accept reservations?", "Can I make a reservation for tonight?", "Do I need to make a reservation in advance?", "How far in advance do I need to make a reservation?"],
+			"responses": ["If you are hosting a party you need to reserve a day prior and if there are less number of people you can directly do a walkin and no prior booking is needed.", "Yes, we accept reservations. You can make a reservation by calling us or booking online through our website.", "We recommend making a reservation in advance, especially for larger groups. You can make a reservation by calling us or visiting our website."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Beverages",
+			"patterns": ["What beverages do you serve?", "Do you have alcohol?"],
+			"responses": ["We have buttermilk, lassi, canned soda, lime water options in beverages.", "We serve all non-alcoholic drinks like buttermilk, lassi, canned soda to name a few"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Irrelevant_tags",
+			"patterns": ["Shivu?", "Weather?"],
+			"responses": ["Sorry, didn’t understand, Please try again.", "I apologize, please try again."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Exit",
+			"patterns": ["Quit", "Exit", "Thanks"],
+			"responses": ["See you soon. Thanks for visiting.", "GoodBye! Hope you visit us soon."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Indian_cuisine",
+			"patterns": ["Do you serve Indian food?", "Any Indian options on the menu?"],
+			"responses": ["Yes, we have a variety of Indian dishes.", "Our menu includes several Indian options."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Outdoor_seating",
+			"patterns": ["Do you have outdoor seating?", "Is there an outdoor dining area?"],
+			"responses": ["No, we only offer takeaways, home delivery and also you can place order on Doordash/UberEats", "Our restaurant does not have an outdoor dining options."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Fine_dining",
+			"patterns": ["Is this a fine dining restaurant?", "Do you offer upscale dining experiences?"],
+			"responses": ["Yes, we are a fine dining establishment with a focus on high-quality cuisine and service.", "Our restaurant offers upscale dining experiences."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Seafood",
+			"patterns": ["Do you serve seafood?", "Are there any seafood dishes on the menu?"],
+			"responses": ["Sorry, we don’t serve any kind of seafood.", "We provide only pure vegetarian options."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Local_cuisine",
+			"patterns": ["Do you serve local cuisine?", "Are there any regional specialties on the menu?"],
+			"responses": ["Yes, we feature local cuisine and regional specialties on our menu.", "Our restaurant offers a taste of the local cuisine."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Alcohol_options",
+			"patterns": ["Do you serve alcohol?", "Is there a bar at the restaurant?"],
+			"responses": ["No, we don’t serve any type of alcohol.", "Our restaurant is known for serving the best vegetarian food only.", "No, we don’t serve any alcohol."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Tandoori_cuisine",
+			"patterns": ["Do you serve tandoori dishes?", "Any tandoori specialties on the menu?"],
+			"responses": ["Yes, we have a range of tandoori dishes available.", "Our menu includes several delicious tandoori options."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Spicy_food",
+			"patterns": ["Do you serve spicy food?", "Are there any extra-spicy dishes on the menu?"],
+			"responses": ["Yes, we have a number of spicy options available.", "We can customize the dish according to the spice level you want.", "We can adjust the dish to your preferred level of spiciness."],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Lunch_hours",
+			"patterns": ["What are your lunch hours?", "What time do you serve lunch?"],
+			"responses": ["We serve lunch from 11:30AM to 2:00PM.", "Our lunch hours are from 11:30AM to 2:00PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Dinner_hours",
+			"patterns": ["What are your dinner hours?", "What time do you serve dinner?"],
+			"responses": ["We serve dinner from 5:00PM to 8:00PM.", "Our dinner hours are from 5:00PM to 8:00PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Weekend_hours",
+			"patterns": ["What are your weekend hours?", "What time do you open and close on weekends?"],
+			"responses": ["On weekends, we are open from 11:00AM to 2:30PM.", "Our weekend hours are 11:00AM to 2:30PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Holiday_hours",
+			"patterns": ["What are your holiday hours?", "Are you open on holidays?"],
+			"responses": ["We are open on holidays, and our hours of operation are 11:00AM to 2:20PM.", "Our holiday hours are 3:00PM to 5:00PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Brunch_hours",
+			"patterns": ["What are your brunch hours?", "What time do you serve brunch?"],
+			"responses": ["We serve brunch from 11:00AM to 2:30PM.", "Our brunch hours are from 11:00AM to 2:30PM."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Late_night_hours",
+			"patterns": ["Do you have late night hours?", "What time do you close at night?"],
+			"responses": ["No we don’t provide late night services.", "Sorry, we are open till 8:00PM only."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Special_hours",
+			"patterns": ["Do you have any special hours?", "Are your hours different on certain days?"],
+			"responses": ["We may have special hours on certain days, please check our website or call us for more information.", "Our hours may vary on certain days, please check our website or call us for more information."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Spice_level",
+			"patterns": ["How spicy are your dishes?", "Do you offer mild options for spicy dishes?"],
+			"responses": ["Our dishes have varying levels of spiciness. We offer mild options for those who prefer less spicy food.", "We can customize the spice level according to the customer's choice."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Location",
+			"patterns": ["Where is your restaurant located?", "Can you give me directions to your restaurant?"],
+			"responses": ["Our restaurant is located at 949 Ruff Drive, San Jose, CA, USA, K-31. Here are the directions: https://www.google.com/maps/dir/?api=1&destination=949%20Ruff%20Dr,%20San%20Jose,%20CA%2095110,%20USA ."],
+			"context_set": ""
+		},
+		{
+			"tag": "Vegan",
+			"patterns": ["Do you have vegan options?", "Are any of your dishes vegan?"],
+			"responses": ["Yes, we have vegan options on our menu. Just ask our servers for recommendations."],
+			"context_set": ""
+		},
+		{
+			"tag": "Gluten_free",
+			"patterns": ["Do you have gluten-free options?", "Are any of your dishes gluten-free?"],
+			"responses": ["Yes, we have gluten-free options on our menu. Just ask our servers for recommendations."],
+			"context_set": ""
+		},
+		{
+			"tag": "Price",
+			"patterns": ["What is the average price range for your menu?", "How much should I expect to spend at your restaurant?"],
+			"responses": ["Our menu prices vary depending on the dish. On average, our dishes range from $5."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Takeout",
+			"patterns": ["Do you offer takeout?", "Can I order takeout?"],
+			"responses": ["Yes, we offer takeout. You can place an order by calling us or ordering online through our website."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Allergies",
+			"patterns": ["Do you offer gluten-free options?", "What about nut allergies?"],
+			"responses": ["Yes, we offer gluten-free and nut-free options. Please inform us of any allergies when you place your order.", "The order can be customized according to the customer’s choice"],
+			"context_set": ""
+		},
+
+
+		{
+			"tag": "Payment",
+			"patterns": ["What types of payment do you accept?"],
+			"responses": ["We accept cash and all major credit/debit cards."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Halal",
+			"patterns": ["Do you serve halal food?"],
+			"responses": ["No, we serve only vegetarian food."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Kids_menu",
+			"patterns": ["Do you have a kids' menu?"],
+			"responses": ["Yes, we have a kids' menu with options that are perfect for younger diners."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Takeout_time",
+			"patterns": ["How long will it take to prepare my takeout order?"],
+			"responses": ["The time it takes to prepare your takeout order will depend on the items you have ordered and our current volume of orders. Please ask when you place your order."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "Parking",
+			"patterns": ["Is there parking available?", "Where can I park my car?"],
+			"responses": ["Yes, there is parking available.", "Parking can be found at 949 Ruff Dr, San Jose, CA 95110."]
+		},
+		{
+			"tag": "Chef_special",
+			"patterns": ["What is the chef's special today?", "What dishes would you recommend?"],
+			"responses": ["Our chef's special today is Suggi Bites.", "We highly recommend trying Combos."]
+		},
+
+
+		{
+			"tag": "feedback_food_quality",
+			"patterns": ["How was the quality of the food?", "Did you enjoy the food?", "How was the taste of the food?"],
+			"responses": ["We strive to provide high quality and delicious food. We apologize if your experience fell short of your expectations.", "We are glad you enjoyed your meal. Thank you for your feedback!"],
+			"context_set": ""
+		},
+
+		{
+			"tag": "feedback_service_quality",
+			"patterns": ["How was the service?", "Did the staff attend to your needs?", "Were the servers friendly and attentive?"],
+			"responses": ["We are committed to providing excellent service to our customers. We apologize if your experience fell short of your expectations.", "Thank you for your feedback. We will strive to improve our service in the future."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "feedback_cleanliness",
+			"patterns": ["How was the cleanliness of the restaurant?", "Was the restaurant kitchen clean and hygienic?"],
+			"responses": ["We take cleanliness and hygiene very seriously. We apologize if you did not find our restaurant up to your standards.", "Thank you for bringing this to our attention. We will take steps to ensure a clean and hygienic environment for our customers."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "feedback_price",
+			"patterns": ["Did you find the prices reasonable?", "How was the value for money?"],
+			"responses": ["We strive to provide our customers with reasonable prices for high quality food and service. We apologize if you did not find the prices to be reasonable.", "Thank you for your feedback. We will take your comments into consideration when evaluating our prices."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "feedback_speed",
+			"patterns": ["How was the speed of service?", "Did you experience any delays?"],
+			"responses": ["We apologize if your experience was not up to our usual standards. We strive to provide prompt and efficient service to our customers.", "Thank you for your feedback. We will work to ensure faster service in the future."],
+			"context_set": ""
+		},
+		{
+			"tag": "booking",
+			"patterns": ["How far in advance do I need to book catering?", "What is the cancellation policy for catering bookings?"],
+			"responses": ["We recommend booking catering at least two weeks in advance. Contact us for availability.", "Our cancellation policy for catering bookings varies depending on the circumstances. Contact us for more information."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "catering_options",
+			"patterns": ["Do you offer catering services for events?", "Can you cater for a large group?"],
+			"responses": ["Yes, we offer catering services for events. Please contact us for more information.", "Absolutely! We can cater for any size of group. Contact us for more details."],
+			"context_set": ""
+		},
+		{
+			"tag": "menu_customization",
+			"patterns": ["Can I customize the menu for my event?", "Do you offer vegetarian options for catering?"],
+			"responses": ["Yes, we can customize the menu for your event. Contact us to discuss your requirements.", "Yes, we offer a range of vegetarian options for catering. Contact us to discuss your requirements."],
+			"context_set": ""
+		}
+	]
+}
